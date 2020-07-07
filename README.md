@@ -7,6 +7,9 @@ check the list in wietze's site to check how you should call your dll.
 will automatically create c:\Windows \System32 and drop your dll and chosen binary in there, followed by execution.
 Clean up after yourself by running trustjack again with the -c flag. 
 
+
+**You migh be missing fody 2.0, run nuget package restore to fix (right click Solution 'TrustJacker' and select 'restore NuGet packages')  ** 
+
 ```
  _______             _       _            _
 |__   __|           | |     | |          | |
