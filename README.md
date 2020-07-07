@@ -8,7 +8,7 @@ will automatically create c:\Windows \System32 and drop your dll and chosen bina
 Clean up after yourself by running trustjack again with the -c flag. 
 
 
-**You migh be missing fody 2.0, run nuget package restore to fix (right click Solution 'TrustJacker' and select 'restore NuGet packages')  ** 
+**You migh be missing fody 2.0, run nuget package restore to fix (right click Solution 'TrustJacker' and select 'restore NuGet packages')** 
 
 ```
  _______             _       _            _
