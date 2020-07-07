@@ -4,6 +4,9 @@ Yet another PoC for https://www.wietzebeukema.nl/blog/hijacking-dlls-in-windows
 To be used with a cmd that does whatever the F you want, for a dll that pops cmd, Please Check my cmd-dll repo.
 check the list in wietze's site to check how you should call your dll.
 
+will automatically create c:\Windows \System32 and drop your dll and chosen binary in there, followed by execution.
+Clean up after yourself by running trustjack again with the -c flag. 
+
 ```
  _______             _       _            _
 |__   __|           | |     | |          | |
